@@ -17,6 +17,11 @@ body {
   background-color: #1b383a;
 }
 
+.gradient {
+  width: 100%;
+  background-image: linear-gradient(to bottom, #f5f3ee 55%, #1b383a 55%);
+}
+
 .text-third {
   color: #1b383a !important;
 }
@@ -25,10 +30,14 @@ body {
   color: #f5f3ee !important;
 }
 
+.text-orange {
+  color: #e1895d !important;
+}
+
 .btn-orange {
   background-color: #e1895d !important;
   border: none !important;
-  color: white !important;
+  color: #f5f3ee !important;
   border-radius: 10px;
   transition-duration: 0.4s;
 }
@@ -78,4 +87,31 @@ body {
 
 .nav-link:hover::after {
   opacity: 1;
+}
+
+.card-primary {
+  background-color: #f5f3ee !important;
+  border-color: #f5f3ee !important;
+  color: #1b383a !important;
+  border-width: 3px;
+  border-radius: 30px;
+}
+
+.btnTop {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  bottom: 10px;
+  right: 10px;
+}
+
+.modal-primary {
+  background-color: #f5f3ee !important;
+  border-color: #f5f3ee !important;
+  color: #1b383a !important;
+  border-width: 3px;
+  border-radius: 30px;
 }

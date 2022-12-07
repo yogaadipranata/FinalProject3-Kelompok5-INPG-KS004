@@ -115,3 +115,16 @@ body {
   border-width: 3px;
   border-radius: 30px;
 }
+
+#btnJumbotron {
+  position: relative;
+  margin-top: 2rem;
+}
+
+section {
+  scroll-margin-top: 5rem;
+}
+
+.btn-card {
+  width: 150px;
+}
